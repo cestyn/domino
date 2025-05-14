@@ -1,3 +1,3 @@
 import { io } from "socket.io-client";
-const socket = io("http://localhost:8000"); // Updated Python server URL
+const socket = io("https://your-backend-name.onrender.com");
 export default socket;
